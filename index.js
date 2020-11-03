@@ -26,7 +26,7 @@ const addTekstJokeToDom = (joke) => {
   list.appendChild(listItem);
 };
 
-const addImgJokeToDom = (url => {
+const addImgJokeToDom = (url) => {
   const listItem = document.createElement(url); //ik verwacht een complete url + img tags terug zoals : <img src="https://icanhazdadjoke.com/j/R7UfaahVfFd.png" />
   // listItem.appendChild(document.createTextNode(`hallo`));
   // listItem.appendChild(url);
