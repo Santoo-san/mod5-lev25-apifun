@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Kies een kleur! eindopdracht color toggle</title>
+    <title>APIfun</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
     <script defer src="api-client.js"></script>
     <script defer src="index.js"></script>
   </head>
 
-  <body></body>
+  <body>
+    <h1>APIfun</h1>
+    <div>
+      <h1>Filter de data</h1>
+      <ul class="navButtons">
+        <li class="navButtons_list-item">
+          <button id="getJoke" class="navButton">Gimmy a joke</button>
+        </li>
+        <li class="navButtons_list-item">
+          <button id="showJoke" class="navButton">Show me a joke</button>
+        </li>
+      </ul>
+
+      <h1>Resultaat:</h1>
+      <ul id="result-list">
+        <li class="result-list-item">Duck</li>
+      </ul>
+
+      <button id="remove-all-button">Remove all results from the list</button>
+    </div>
+
+  </body>
 </html>
