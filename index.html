@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>APIfun</title>
+    <title>To Do List</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css">
     <script defer src="api-client.js"></script>
     <script defer src="index.js"></script>
   </head>
 
   <body>
-    <h1>APIfun</h1>
+    <h1>Eindopdracht To Do List</h1>
     <div>
-      <h1>Filter de data</h1>
+      <h1>Click on a button to show the To Do list!</h1>
+     
       <ul class="navButtons">
         <li class="navButtons_list-item">
-          <button id="getJoke" class="navButton">Gimmy a joke</button>
+          <button id="getToDolist" class="navButton">Show my to do list</button>
         </li>
+        <h3>Or directly add something through the inputfield:</h3>
         <li class="navButtons_list-item">
-          <button id="showJoke" class="navButton">Show me a joke</button>
+          <input id="addToDoList" class="inputfield">
+          <button id="submitButton" class="navButton">Toevoegen</button>
         </li>
       </ul>
 
       <h1>Resultaat:</h1>
       <ul id="result-list">
-        <li class="result-list-item">Click on a button to show a joke!</li>
+        <li class="result-list-item">Click on a button to show the to do list!</li>
       </ul>
 
-      <button id="remove-all-button">Remove all results from the list</button>
+      <button id="remove-all-button">Hide To Do list</button>
     </div>
 
   </body>
